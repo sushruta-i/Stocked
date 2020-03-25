@@ -1,0 +1,30 @@
+.imageBox {
+  position: relative;
+  float: left;
+  background-color: #F6E1E1;
+  width: 250px;
+  height: 200px;
+  top: -50px;
+  padding-top: 100px;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 500px;
+  width: 500px;
+}
+
+.text {
+  position: absolute;
+  top: 700px;
+}
