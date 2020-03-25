@@ -15,7 +15,7 @@
   display: none;
 }
 
-.imageBox:hover .imageBox:active .hoverImg {
+.imageBox:hover .hoverImg {
   display: inline-block;
   position: absolute;
   left: 0;
